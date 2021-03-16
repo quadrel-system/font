@@ -1,0 +1,514 @@
+/* --------------------------------
+
+Quadrel-System Web Font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@-font-path: "../fonts";
+
+@font-face {
+  font-family: 'Quadrel-System';
+  src: url('@{-font-path}/Quadrel-System.eot');
+  src: url('@{-font-path}/Quadrel-System.eot') format('embedded-opentype'),
+    url('@{-font-path}/Quadrel-System.woff2') format('woff2'),
+    url('@{-font-path}/Quadrel-System.woff') format('woff'),
+    url('@{-font-path}/Quadrel-System.ttf') format('truetype'),
+    url('@{-font-path}/Quadrel-System.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*------------------------
+	base class definition
+-------------------------*/
+
+.icon {
+  display: inline-block;
+  font: normal normal normal 1em/1 'Quadrel-System';
+  color: inherit;
+  flex-shrink: 0;
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*------------------------
+  change icon size
+-------------------------*/
+
+/* relative units */
+.icon-sm {
+	font-size: 0.8em;
+}
+.icon-lg {
+  font-size: 1.2em;
+}
+/* absolute units */
+.icon-16 {
+  font-size: 16px;
+}
+.icon-32 {
+  font-size: 32px;
+}
+
+/*------------------------
+  spinning icons
+-------------------------*/
+
+.icon-is-spinning {
+  animation: icon-spin 1s infinite linear;
+}
+
+@keyframes icon-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*------------------------
+  rotated/flipped icons
+-------------------------*/
+
+.icon-rotate-90  {
+	transform: rotate(90deg);
+}
+
+.icon-rotate-180 {
+	transform: rotate(180deg);
+}
+
+.icon-rotate-270 {
+	transform: rotate(270deg);
+}
+
+.icon-flip-y {
+	transform: scaleY(-1);
+}
+.icon-flip-x {
+	transform: scaleX(-1);
+}
+
+/*------------------------
+	icons
+-------------------------*/
+@Quadrel-System-user--default: "\e000";
+@Quadrel-System-triangle--up--solid: "\e001";
+@Quadrel-System-triangle--right-solid: "\e002";
+@Quadrel-System-triangle--left--solid: "\e003";
+@Quadrel-System-triangle--down--solid: "\e004";
+@Quadrel-System-trash: "\e005";
+@Quadrel-System-times--square: "\e006";
+@Quadrel-System-times: "\e007";
+@Quadrel-System-times--large: "\e008";
+@Quadrel-System-times--circle: "\e009";
+@Quadrel-System-settings: "\e010";
+@Quadrel-System-select--square: "\e011";
+@Quadrel-System-plus--square: "\e012";
+@Quadrel-System-plus: "\e013";
+@Quadrel-System-plus--large: "\e014";
+@Quadrel-System-plus--circle: "\e015";
+@Quadrel-System-pencil--square: "\e016";
+@Quadrel-System-pencil: "\e017";
+@Quadrel-System-minus--square: "\e018";
+@Quadrel-System-minus: "\e019";
+@Quadrel-System-minus--large: "\e020";
+@Quadrel-System-minus--circle: "\e021";
+@Quadrel-System-magnifier: "\e022";
+@Quadrel-System-link--web-2: "\e023";
+@Quadrel-System-home: "\e024";
+@Quadrel-System-folder--remove: "\e025";
+@Quadrel-System-folder: "\e026";
+@Quadrel-System-folder--add: "\e027";
+@Quadrel-System-filter: "\e028";
+@Quadrel-System-file--text: "\e029";
+@Quadrel-System-file--select: "\e030";
+@Quadrel-System-file: "\e031";
+@Quadrel-System-file--extend: "\e032";
+@Quadrel-System-eye: "\e033";
+@Quadrel-System-circle-arrow: "\e034";
+@Quadrel-System-exclamation--triangle: "\e035";
+@Quadrel-System-exclamation--square: "\e036";
+@Quadrel-System-exclamation--circle: "\e037";
+@Quadrel-System-data--upload: "\e038";
+@Quadrel-System-data--download: "\e039";
+@Quadrel-System-ctrl--top: "\e040";
+@Quadrel-System-ctrl--right: "\e041";
+@Quadrel-System-ctrl--down: "\e042";
+@Quadrel-System-ctrl--left: "\e043";
+@Quadrel-System-cloud--upload: "\e044";
+@Quadrel-System-cloud--download: "\e045";
+@Quadrel-System-circle--time: "\e046";
+@Quadrel-System-circle: "\e047";
+@Quadrel-System-circle--arrow: "\e048";
+@Quadrel-System-check--circle: "\e049";
+@Quadrel-System-calendar: "\e050";
+@Quadrel-System-arrow--top: "\e051";
+@Quadrel-System-arrow--right: "\e052";
+@Quadrel-System-arrow--down: "\e053";
+@Quadrel-System-arrow--left: "\e054";
+@Quadrel-System-times--square--solid: "\e056";
+@Quadrel-System-times--circle--solid: "\e057";
+@Quadrel-System-overflow-menu--vertical: "\e058";
+@Quadrel-System-overflow-menu--horizontal: "\e059";
+@Quadrel-System-minus--square--solid: "\e060";
+@Quadrel-System-minus--circle--solid: "\e061";
+@Quadrel-System-folder--add--solid: "\e062";
+@Quadrel-System-filter--solid: "\e063";
+@Quadrel-System-eye--solid: "\e064";
+@Quadrel-System-exclamation--triangle--solid: "\e065";
+@Quadrel-System-exclamation--square--solid: "\e066";
+@Quadrel-System-exclamation--circle--solid: "\e067";
+@Quadrel-System-coat-ch: "\e068";
+@Quadrel-System-circle--solid: "\e069";
+@Quadrel-System-globe: "\e070";
+@Quadrel-System-plus--circle--solid: "\e071";
+@Quadrel-System-select--square--solid: "\e072";
+@Quadrel-System-plus--square--solid: "\e073";
+@Quadrel-System-circle--radio: "\e074";
+@Quadrel-System-checkmark: "\e075";
+@Quadrel-System-coat-ch--color: "\e076";
+@Quadrel-System-check--circle--solid: "\e077";
+@Quadrel-System-menu: "\e078";
+@Quadrel-System-box: "\e080";
+@Quadrel-System-link: "\e081";
+@Quadrel-System-save: "\e082";
+@Quadrel-System-cube: "\e083";
+@Quadrel-System-delivery: "\e084";
+
+.Quadrel-System-user--default::before {
+  content: @Quadrel-System-user--default;
+}
+
+.Quadrel-System-triangle--up--solid::before {
+  content: @Quadrel-System-triangle--up--solid;
+}
+
+.Quadrel-System-triangle--right-solid::before {
+  content: @Quadrel-System-triangle--right-solid;
+}
+
+.Quadrel-System-triangle--left--solid::before {
+  content: @Quadrel-System-triangle--left--solid;
+}
+
+.Quadrel-System-triangle--down--solid::before {
+  content: @Quadrel-System-triangle--down--solid;
+}
+
+.Quadrel-System-trash::before {
+  content: @Quadrel-System-trash;
+}
+
+.Quadrel-System-times--square::before {
+  content: @Quadrel-System-times--square;
+}
+
+.Quadrel-System-times::before {
+  content: @Quadrel-System-times;
+}
+
+.Quadrel-System-times--large::before {
+  content: @Quadrel-System-times--large;
+}
+
+.Quadrel-System-times--circle::before {
+  content: @Quadrel-System-times--circle;
+}
+
+.Quadrel-System-settings::before {
+  content: @Quadrel-System-settings;
+}
+
+.Quadrel-System-select--square::before {
+  content: @Quadrel-System-select--square;
+}
+
+.Quadrel-System-plus--square::before {
+  content: @Quadrel-System-plus--square;
+}
+
+.Quadrel-System-plus::before {
+  content: @Quadrel-System-plus;
+}
+
+.Quadrel-System-plus--large::before {
+  content: @Quadrel-System-plus--large;
+}
+
+.Quadrel-System-plus--circle::before {
+  content: @Quadrel-System-plus--circle;
+}
+
+.Quadrel-System-pencil--square::before {
+  content: @Quadrel-System-pencil--square;
+}
+
+.Quadrel-System-pencil::before {
+  content: @Quadrel-System-pencil;
+}
+
+.Quadrel-System-minus--square::before {
+  content: @Quadrel-System-minus--square;
+}
+
+.Quadrel-System-minus::before {
+  content: @Quadrel-System-minus;
+}
+
+.Quadrel-System-minus--large::before {
+  content: @Quadrel-System-minus--large;
+}
+
+.Quadrel-System-minus--circle::before {
+  content: @Quadrel-System-minus--circle;
+}
+
+.Quadrel-System-magnifier::before {
+  content: @Quadrel-System-magnifier;
+}
+
+.Quadrel-System-link--web-2::before {
+  content: @Quadrel-System-link--web-2;
+}
+
+.Quadrel-System-home::before {
+  content: @Quadrel-System-home;
+}
+
+.Quadrel-System-folder--remove::before {
+  content: @Quadrel-System-folder--remove;
+}
+
+.Quadrel-System-folder::before {
+  content: @Quadrel-System-folder;
+}
+
+.Quadrel-System-folder--add::before {
+  content: @Quadrel-System-folder--add;
+}
+
+.Quadrel-System-filter::before {
+  content: @Quadrel-System-filter;
+}
+
+.Quadrel-System-file--text::before {
+  content: @Quadrel-System-file--text;
+}
+
+.Quadrel-System-file--select::before {
+  content: @Quadrel-System-file--select;
+}
+
+.Quadrel-System-file::before {
+  content: @Quadrel-System-file;
+}
+
+.Quadrel-System-file--extend::before {
+  content: @Quadrel-System-file--extend;
+}
+
+.Quadrel-System-eye::before {
+  content: @Quadrel-System-eye;
+}
+
+.Quadrel-System-circle-arrow::before {
+  content: @Quadrel-System-circle-arrow;
+}
+
+.Quadrel-System-exclamation--triangle::before {
+  content: @Quadrel-System-exclamation--triangle;
+}
+
+.Quadrel-System-exclamation--square::before {
+  content: @Quadrel-System-exclamation--square;
+}
+
+.Quadrel-System-exclamation--circle::before {
+  content: @Quadrel-System-exclamation--circle;
+}
+
+.Quadrel-System-data--upload::before {
+  content: @Quadrel-System-data--upload;
+}
+
+.Quadrel-System-data--download::before {
+  content: @Quadrel-System-data--download;
+}
+
+.Quadrel-System-ctrl--top::before {
+  content: @Quadrel-System-ctrl--top;
+}
+
+.Quadrel-System-ctrl--right::before {
+  content: @Quadrel-System-ctrl--right;
+}
+
+.Quadrel-System-ctrl--down::before {
+  content: @Quadrel-System-ctrl--down;
+}
+
+.Quadrel-System-ctrl--left::before {
+  content: @Quadrel-System-ctrl--left;
+}
+
+.Quadrel-System-cloud--upload::before {
+  content: @Quadrel-System-cloud--upload;
+}
+
+.Quadrel-System-cloud--download::before {
+  content: @Quadrel-System-cloud--download;
+}
+
+.Quadrel-System-circle--time::before {
+  content: @Quadrel-System-circle--time;
+}
+
+.Quadrel-System-circle::before {
+  content: @Quadrel-System-circle;
+}
+
+.Quadrel-System-circle--arrow::before {
+  content: @Quadrel-System-circle--arrow;
+}
+
+.Quadrel-System-check--circle::before {
+  content: @Quadrel-System-check--circle;
+}
+
+.Quadrel-System-calendar::before {
+  content: @Quadrel-System-calendar;
+}
+
+.Quadrel-System-arrow--top::before {
+  content: @Quadrel-System-arrow--top;
+}
+
+.Quadrel-System-arrow--right::before {
+  content: @Quadrel-System-arrow--right;
+}
+
+.Quadrel-System-arrow--down::before {
+  content: @Quadrel-System-arrow--down;
+}
+
+.Quadrel-System-arrow--left::before {
+  content: @Quadrel-System-arrow--left;
+}
+
+.Quadrel-System-times--square--solid::before {
+  content: @Quadrel-System-times--square--solid;
+}
+
+.Quadrel-System-times--circle--solid::before {
+  content: @Quadrel-System-times--circle--solid;
+}
+
+.Quadrel-System-overflow-menu--vertical::before {
+  content: @Quadrel-System-overflow-menu--vertical;
+}
+
+.Quadrel-System-overflow-menu--horizontal::before {
+  content: @Quadrel-System-overflow-menu--horizontal;
+}
+
+.Quadrel-System-minus--square--solid::before {
+  content: @Quadrel-System-minus--square--solid;
+}
+
+.Quadrel-System-minus--circle--solid::before {
+  content: @Quadrel-System-minus--circle--solid;
+}
+
+.Quadrel-System-folder--add--solid::before {
+  content: @Quadrel-System-folder--add--solid;
+}
+
+.Quadrel-System-filter--solid::before {
+  content: @Quadrel-System-filter--solid;
+}
+
+.Quadrel-System-eye--solid::before {
+  content: @Quadrel-System-eye--solid;
+}
+
+.Quadrel-System-exclamation--triangle--solid::before {
+  content: @Quadrel-System-exclamation--triangle--solid;
+}
+
+.Quadrel-System-exclamation--square--solid::before {
+  content: @Quadrel-System-exclamation--square--solid;
+}
+
+.Quadrel-System-exclamation--circle--solid::before {
+  content: @Quadrel-System-exclamation--circle--solid;
+}
+
+.Quadrel-System-coat-ch::before {
+  content: @Quadrel-System-coat-ch;
+}
+
+.Quadrel-System-circle--solid::before {
+  content: @Quadrel-System-circle--solid;
+}
+
+.Quadrel-System-globe::before {
+  content: @Quadrel-System-globe;
+}
+
+.Quadrel-System-plus--circle--solid::before {
+  content: @Quadrel-System-plus--circle--solid;
+}
+
+.Quadrel-System-select--square--solid::before {
+  content: @Quadrel-System-select--square--solid;
+}
+
+.Quadrel-System-plus--square--solid::before {
+  content: @Quadrel-System-plus--square--solid;
+}
+
+.Quadrel-System-circle--radio::before {
+  content: @Quadrel-System-circle--radio;
+}
+
+.Quadrel-System-checkmark::before {
+  content: @Quadrel-System-checkmark;
+}
+
+.Quadrel-System-coat-ch--color::before {
+  content: @Quadrel-System-coat-ch--color;
+}
+
+.Quadrel-System-check--circle--solid::before {
+  content: @Quadrel-System-check--circle--solid;
+}
+
+.Quadrel-System-menu::before {
+  content: @Quadrel-System-menu;
+}
+
+.Quadrel-System-box::before {
+  content: @Quadrel-System-box;
+}
+
+.Quadrel-System-link::before {
+  content: @Quadrel-System-link;
+}
+
+.Quadrel-System-save::before {
+  content: @Quadrel-System-save;
+}
+
+.Quadrel-System-cube::before {
+  content: @Quadrel-System-cube;
+}
+
+.Quadrel-System-delivery::before {
+  content: @Quadrel-System-delivery;
+}
+
